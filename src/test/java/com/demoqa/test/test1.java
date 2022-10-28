@@ -8,7 +8,6 @@ import static com.demoqa.fakerData.RandomDataFaker.*;
 
 public class test1 {
     RegistrationFormPage registrationFormPage = new RegistrationFormPage();
-    RandomDataFaker randomDataFaker = new RandomDataFaker();
 
     @Test
     void fillformtest() {
