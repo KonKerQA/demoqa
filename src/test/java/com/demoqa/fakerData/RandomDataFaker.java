@@ -2,8 +2,6 @@ package com.demoqa.fakerData;
 
 import com.github.javafaker.Faker;
 
-import java.util.Locale;
-
 
 public class RandomDataFaker {
    static Faker faker = new Faker();
