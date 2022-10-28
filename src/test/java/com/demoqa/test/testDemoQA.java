@@ -1,12 +1,11 @@
 package com.demoqa.test;
 
-import com.demoqa.fakerData.RandomDataFaker;
 import com.demoqa.pages.RegistrationFormPage;
 import org.junit.jupiter.api.Test;
 import static com.demoqa.fakerData.RandomDataFaker.*;
 
 
-public class test1 {
+public class testDemoQA {
     RegistrationFormPage registrationFormPage = new RegistrationFormPage();
 
     @Test

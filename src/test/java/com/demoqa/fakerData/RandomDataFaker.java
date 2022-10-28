@@ -2,7 +2,6 @@ package com.demoqa.fakerData;
 
 import com.github.javafaker.Faker;
 
-
 public class RandomDataFaker {
    static Faker faker = new Faker();
     public static String firstName = faker.name().firstName(),
@@ -14,7 +13,7 @@ public class RandomDataFaker {
             userBirthMonth = "November",
             userBirthYear = faker.number().numberBetween(1960, 2012) + "",
             subject = "Maths",
-            path = "src/test/resources/test1.png",
+            path = "src/test/resources/test1.jpg",
             currentAdress = faker.animal().name(),
             state = "NCR",
             city = "Delhi";
@@ -70,6 +69,5 @@ public class RandomDataFaker {
     public static String getCity(){
         return city;
     }
-
 
 }
